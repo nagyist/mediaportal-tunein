@@ -29,3 +29,4 @@ git checkout RadioTimeOpmlApi\Properties\AssemblyInfo.cs
 git checkout RadioTimePlugin\Properties\AssemblyInfo.cs
 
 cd setup
+pause

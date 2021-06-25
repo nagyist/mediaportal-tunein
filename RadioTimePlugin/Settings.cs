@@ -91,7 +91,7 @@ namespace RadioTimePlugin
         {
             SaveEncryptedPassword();
             
-            using (var xmlwriter = new MediaPortal.Profile.Settings(Config.GetFile(Config.Dir.Config, "MediaPortal.xml")))
+            using (MediaPortal.Profile.Settings xmlwriter = new MediaPortal.Profile.MPSettings())
             {
                 xmlwriter.SetValueAsBool("radiotime", "mp3", Mp3);
                 xmlwriter.SetValueAsBool("radiotime", "wma", Wma);
@@ -124,7 +124,7 @@ namespace RadioTimePlugin
         {
             var passwordNeedsUpdate = false;
 
-            using (var xmlreader = new MediaPortal.Profile.Settings(Config.GetFile(Config.Dir.Config, "MediaPortal.xml")))
+            using (MediaPortal.Profile.Settings xmlreader = new MediaPortal.Profile.MPSettings())
             {
                 Mp3 = xmlreader.GetValueAsBool("radiotime", "mp3", true);
                 Wma = xmlreader.GetValueAsBool("radiotime", "wma", true);
@@ -191,7 +191,7 @@ namespace RadioTimePlugin
         {
             if (!string.IsNullOrEmpty(Password))
             {
-                using (var xmlwriter = new MediaPortal.Profile.Settings(Config.GetFile(Config.Dir.Config, "MediaPortal.xml")))
+                using (MediaPortal.Profile.Settings xmlwriter = new MediaPortal.Profile.MPSettings())
                 {
                     xmlwriter.SetValue("radiotime", "encryptedPassword",
                         PasswordUtility.EncryptData(Password, DataProtectionScope.LocalMachine));

@@ -48,9 +48,12 @@ namespace RadioTimeOpmlApi
         public string Band { get; set; }
 
         public bool HasSong { get; set; }
+        public string ArtistId { get; set; }
         public string Artist { get; set; }
         public string Album { get; set; }
         public string Song { get; set; }
+        public string ArtistArt { get; set; }
+        public string AlbumArt { get; set; }
 
         public string Description { get; set; }
 
@@ -143,6 +146,15 @@ namespace RadioTimeOpmlApi
                                             break;
                                         case "description":
                                             Description = childNode.InnerText;
+                                            break;
+                                        case "current_artist_id":
+                                            ArtistId = childNode.InnerText;
+                                            break;
+                                        case "current_artist_art":
+                                            ArtistArt = !string.IsNullOrEmpty(childNode.InnerText) ? string.Format("https://cdn-albums.tunein.com/{0}g.jpg", childNode.InnerText) : string.Empty;
+                                            break;
+                                        case "current_album_art":
+                                            AlbumArt = !string.IsNullOrEmpty(childNode.InnerText) ? string.Format("https://cdn-albums.tunein.com/{0}g.jpg", childNode.InnerText) : string.Empty;
                                             break;
                                     }
                                 }

@@ -77,7 +77,8 @@ namespace RadioTimeOpmlApi
             {
                 if (outline.Key == "station")
                 {
-                    Image = outline.Image;
+                    // Image = outline.Image;
+                    Image = !string.IsNullOrEmpty(outline.Image) ? outline.Image.Replace("_0q.png", string.Format("{0}q.png", GuidId)) : string.Format("https://cdn-radiotime-logos.tunein.com/{0}q.png", GuidId); 
                     Name = outline.Text;
                     PresetId = outline.PresetId;
                     GuidId = outline.GuidId;
@@ -86,7 +87,7 @@ namespace RadioTimeOpmlApi
                 if (outline.Key == "show")
                 {
                     // ShowImage = string.Format("http://radiotime-logos.s3.amazonaws.com/{0}.png", GuidId);
-                    ShowImage = string.Format("http://cdn-radiotime-logos.tunein.com/{0}.png", GuidId);
+                    ShowImage = string.Format("http://cdn-radiotime-logos.tunein.com/{0}q.png", GuidId);
                     Description = outline.Text;
                     IsShow = true;
                     ShowGuidId = outline.GuidId;
