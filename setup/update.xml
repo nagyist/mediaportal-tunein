@@ -495,13 +495,15 @@ Internal fixes</VersionDescription>
           <Major>1</Major>
           <Minor>5</Minor>
           <Build>0</Build>
-          <Revision>0</Revision>
+          <Revision>122</Revision>
         </Version>
         <ExtensionDescription>Plugin for browse and play more that 100.000 online radio stations from tunein.com</ExtensionDescription>
-        <VersionDescription>MP Configuration fix</VersionDescription>
+        <VersionDescription>Rebuild to support x86 and x64 architectures.
+
+*** We Stand with Ukraine ***</VersionDescription>
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal-tunein/master/setup/builds/RadioTime-1.5.0.0.MPE1</OnlineLocation>
-        <ReleaseDate>2021-06-25T13:36:26.274655+03:00</ReleaseDate>
+        <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal-tunein/master/setup/builds/RadioTime-1.5.0.122.MPE1</OnlineLocation>
+        <ReleaseDate>2023-04-01T14:02:07.0322965+03:00</ReleaseDate>
         <Tags>radio, online</Tags>
         <Location>builds\RadioTime-MAJOR.MINOR.BUILD.REVISION.MPE1</Location>
         <Params>
