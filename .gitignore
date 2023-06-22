@@ -1,8 +1,14 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+# Build output
+[Bb]in
+[Oo]bj
+[Dd]ebug
+[Rr]elease
 
-/RadioTime/bin
-/RadioTime/obj
-/RadioTimeOpmlApi/bin
-/RadioTimePlugin/bin
+# Visual Studio
+.vs
+
+# User specific files
+*.suo
+*.user
+*.log
+*.bak

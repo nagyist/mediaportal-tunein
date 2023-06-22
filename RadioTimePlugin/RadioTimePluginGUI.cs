@@ -173,7 +173,7 @@ namespace RadioTimePlugin
             // no image or picture
             strButtonImage = String.Empty;
             strButtonImageFocus = String.Empty;
-            strPictureImage = String.Empty;
+            strPictureImage = "hover_radiotime.png";
 
             return true;
         }
