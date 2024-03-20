@@ -10,168 +10,168 @@
         <Description>Skin</Description>
         <Files>
           <Items>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Default\RadioTime.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{aed0ef97-0e84-4e59-b73c-8c25f7b9976e}-RadioTime.xml</ZipFileName>
               <DestinationFilename>%Skin%\Default\RadioTime.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Default\RadioTimeMiniGuide.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{3106b544-5333-400e-b791-948b1e17400c}-RadioTimeMiniGuide.xml</ZipFileName>
               <DestinationFilename>%Skin%\Default\RadioTimeMiniGuide.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Default\radiotimenowplaying.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{1b13eef0-eb2b-46bb-8ffb-de846d8d0327}-radiotimenowplaying.xml</ZipFileName>
               <DestinationFilename>%Skin%\Default\radiotimenowplaying.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Default\RadioTimePresets.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{43971911-5e61-4ef3-b1e7-132df9315c8a}-RadioTimePresets.xml</ZipFileName>
               <DestinationFilename>%Skin%\Default\RadioTimePresets.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Default\Media\hover_radiotime.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{8e5f438c-76fd-40a7-b9e6-8d7a2deb3b3c}-hover_radiotime.png</ZipFileName>
               <DestinationFilename>%Skin%\Default\Media\hover_radiotime.png</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Default\Media\radiotime_logo.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{4953000d-7a6a-4f19-9c49-f2c2d304fee0}-radiotime_logo.png</ZipFileName>
               <DestinationFilename>%Skin%\Default\Media\radiotime_logo.png</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\DefaultWide\RadioTime.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{3dbfa018-3d06-4f52-b06b-92c6a2c5de1f}-RadioTime.xml</ZipFileName>
               <DestinationFilename>%Skin%\DefaultWide\RadioTime.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\DefaultWide\RadioTimeMiniGuide.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{20e7b5e2-05cd-450f-8f6a-ca61e3a42816}-RadioTimeMiniGuide.xml</ZipFileName>
               <DestinationFilename>%Skin%\DefaultWide\RadioTimeMiniGuide.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\DefaultWide\radiotimenowplaying.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{2ed23bd5-3d8d-477e-9772-9c415a7e8bfc}-radiotimenowplaying.xml</ZipFileName>
               <DestinationFilename>%Skin%\DefaultWide\radiotimenowplaying.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\DefaultWide\RadioTimePresets.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{3fc36930-3379-4fe3-9f87-f19ee47a8a61}-RadioTimePresets.xml</ZipFileName>
               <DestinationFilename>%Skin%\DefaultWide\RadioTimePresets.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\DefaultWide\Media\hover_radiotime.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{1621a46c-4453-4866-b6f9-c1a7fd932c71}-hover_radiotime.png</ZipFileName>
               <DestinationFilename>%Skin%\DefaultWide\Media\hover_radiotime.png</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\DefaultWide\Media\radiotime_logo.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{d28d47b9-2683-4f06-90e0-44333a3a1c96}-radiotime_logo.png</ZipFileName>
               <DestinationFilename>%Skin%\DefaultWide\Media\radiotime_logo.png</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\common.facade.radiotime.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{ad5e0f0d-046e-4cf7-96e6-e157b110ccfd}-common.facade.radiotime.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\common.facade.radiotime.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\common.window.radiotime.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{f8df18b2-b945-403b-883c-950bbbe4c221}-common.window.radiotime.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\common.window.radiotime.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\RadioTime.hiddenmenu.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{f045a457-f8c3-4e49-8d7e-683a15ba7fee}-RadioTime.hiddenmenu.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\RadioTime.hiddenmenu.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\RadioTime.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{72c1d10a-ea5d-4246-9051-05cb561f3729}-RadioTime.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\RadioTime.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\RadioTimeMiniGuide.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{8297db45-2ad9-429b-ab13-d6f0636d0a16}-RadioTimeMiniGuide.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\RadioTimeMiniGuide.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\RadioTimeNowPlaying.Body.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{e565f19f-e0a8-4fab-ae42-1bca4812c031}-RadioTimeNowPlaying.Body.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\RadioTimeNowPlaying.Body.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\RadioTimeNowPlaying.Dummy.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{63016775-ff08-4872-8bbd-aa16350990cf}-RadioTimeNowPlaying.Dummy.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\RadioTimeNowPlaying.Dummy.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\RadioTimeNowPlaying.SimpleBody.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{4d663857-8a0d-43b5-855d-77daff86ebde}-RadioTimeNowPlaying.SimpleBody.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\RadioTimeNowPlaying.SimpleBody.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\RadioTimeNowPlaying.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{5458bea8-0ffe-41bd-8917-10674119c7c6}-RadioTimeNowPlaying.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\RadioTimeNowPlaying.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\RadioTimePresets.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{cfa859e2-5b2c-4feb-ab0f-9d5125c18867}-RadioTimePresets.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\RadioTimePresets.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\Media\basichome_button_radiotime.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{8b6c6773-b000-43b1-ac36-c7e2c1f24152}-basichome_button_radiotime.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Media\basichome_button_radiotime.png</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>skin\Titan\Media\hover_radiotime.png</LocalFileName>
@@ -187,49 +187,49 @@
         <Description>Languages</Description>
         <Files>
           <Items>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>language\RadioTime\en-US.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{79f57d06-4c75-4235-b329-817999ce5b2b}-en-US.xml</ZipFileName>
               <DestinationFilename>%Language%\RadioTime\en-US.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>language\RadioTime\nl.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{ce332097-ffcd-47b9-8097-cf6de51babb4}-nl.xml</ZipFileName>
               <DestinationFilename>%Language%\RadioTime\nl.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>language\RadioTime\da.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{dd154667-00d3-44a5-8b8a-74dc98dd640c}-da.xml</ZipFileName>
               <DestinationFilename>%Language%\RadioTime\da.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>language\RadioTime\de.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{e8dcf51b-9591-4762-8242-a3be50a23c63}-de.xml</ZipFileName>
               <DestinationFilename>%Language%\RadioTime\de.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>language\RadioTime\fr.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{22dabdcc-7cac-42e7-b16d-b03e52855071}-fr.xml</ZipFileName>
               <DestinationFilename>%Language%\RadioTime\fr.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>language\RadioTime\ru.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{1c360882-e418-4d24-b84a-3e7fa0448a8a}-ru.xml</ZipFileName>
               <DestinationFilename>%Language%\RadioTime\ru.xml</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>language\RadioTime\tr.xml</LocalFileName>
@@ -246,7 +246,7 @@
         <Description>Settings</Description>
         <Files>
           <Items>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>settings\extension_settings.xml</LocalFileName>
@@ -263,14 +263,14 @@
         <Description>Plugin</Description>
         <Files>
           <Items>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\RadioTimePlugin\bin\Release\RadioTimeOpmlApi.dll</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{ca4b62d3-a055-47ab-84b7-07f0a8e16867}-RadioTimeOpmlApi.dll</ZipFileName>
               <DestinationFilename>%Plugins%\Windows\RadioTimeOpmlApi.dll</DestinationFilename>
             </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\RadioTimePlugin\bin\Release\RadioTimePlugin.dll</LocalFileName>
@@ -284,7 +284,7 @@
   </Groups>
   <Sections>
     <Items>
-      <SectionItem Guid="7e67edf7-f9e2-4c09-a309-08940824fad7" Name="Welcome Screen" ConditionGroup="">
+      <SectionItem Guid="7e67edf7-f9e2-4c09-a309-08940824fad7" Name="Welcome Screen" ConditionGroup="" Condition="None">
         <Params>
           <Items>
             <SectionParam Name="Header text">
@@ -318,7 +318,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <PanelName>Welcome Screen</PanelName>
         <WizardButtonsEnum>NextCancel</WizardButtonsEnum>
       </SectionItem>
-      <SectionItem Guid="ba601efb-cd0b-44a1-9b93-60534e51301e" Name="Install Section" ConditionGroup="">
+      <SectionItem Guid="ba601efb-cd0b-44a1-9b93-60534e51301e" Name="Install Section" ConditionGroup="" Condition="None">
         <Params>
           <Items>
             <SectionParam Name="Header Title">
@@ -340,13 +340,13 @@ Click Next to continue or Cancel to exit Setup.</Value>
         </Params>
         <Actions>
           <Items>
-            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="Skin">
+            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="Skin" Condition="None">
               <Params>
                 <Items />
               </Params>
               <ExecuteLocation>AfterPanelShow</ExecuteLocation>
             </ActionItem>
-            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="">
+            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="" Condition="None">
               <Params>
                 <Items />
               </Params>
@@ -363,7 +363,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <PanelName>Install Section</PanelName>
         <WizardButtonsEnum>Next</WizardButtonsEnum>
       </SectionItem>
-      <SectionItem Guid="f70f10c5-2a52-4890-b09d-ffbf8c2ab594" Name="Setup Complete" ConditionGroup="">
+      <SectionItem Guid="f70f10c5-2a52-4890-b09d-ffbf8c2ab594" Name="Setup Complete" ConditionGroup="" Condition="None">
         <Params>
           <Items>
             <SectionParam Name="Header text">
@@ -398,20 +398,21 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <Type>MediaPortal</Type>
         <Id />
         <MinVersion>
-          <Major>1</Major>
-          <Minor>1</Minor>
-          <Build>6</Build>
-          <Revision>27644</Revision>
+          <Major>*</Major>
+          <Minor>*</Minor>
+          <Build>*</Build>
+          <Revision>*</Revision>
         </MinVersion>
         <MaxVersion>
-          <Major>1</Major>
-          <Minor>1</Minor>
-          <Build>6</Build>
-          <Revision>27644</Revision>
+          <Major>*</Major>
+          <Minor>*</Minor>
+          <Build>*</Build>
+          <Revision>*</Revision>
         </MaxVersion>
         <WarnOnly>false</WarnOnly>
-        <Message>Requires MediaPortal version 1.16 Pre or higher!</Message>
+        <Message />
         <Name>MediaPortal</Name>
+        <Condition>None</Condition>
       </DependencyItem>
       <DependencyItem>
         <Type>Skin</Type>
@@ -431,6 +432,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <WarnOnly>true</WarnOnly>
         <Message>Requires Skin version 1.4.0.0 to 1.4.0.0.</Message>
         <Name>Skin</Name>
+        <Condition>None</Condition>
       </DependencyItem>
       <DependencyItem>
         <Type>Installer</Type>
@@ -450,6 +452,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <WarnOnly>true</WarnOnly>
         <Message>Requires Installer version 1.15.100.0 to 1.99.999.999.</Message>
         <Name>Installer</Name>
+        <Condition>None</Condition>
       </DependencyItem>
     </Items>
   </Dependencies>
@@ -478,10 +481,10 @@ Click Next to continue or Cancel to exit Setup.</Value>
   <GeneralInfo>
     <Name>RadioTime</Name>
     <Id>71cc3381-de92-482d-9556-7e86f67f8067</Id>
-    <Author>Dukus; (released by yoavain, tuned by ajs)</Author>
+    <Author>Dukus (released by yoavain, tuned by ajs)</Author>
     <HomePage>https://github.com/andrewjswan/mediaportal-tunein</HomePage>
     <ForumPage>http://forum.team-mediaportal.com/forums/radiotime.666/</ForumPage>
-    <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mediaportal-tunein/master/setup/update.xml</UpdateUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mediaportal-tunein/master/setup/RadioTimePlugin.xml</UpdateUrl>
     <Version>
       <Major>1</Major>
       <Minor>5</Minor>
@@ -490,14 +493,16 @@ Click Next to continue or Cancel to exit Setup.</Value>
     </Version>
     <ExtensionDescription>Plugin for browse and play more that 100.000 online radio stations from tunein.com</ExtensionDescription>
     <VersionDescription>Add Titan skin files
-Add hover name to Plugin
-
+Add hover name to Plugin
+Migrate to GitHub Action
+
 *** We Stand with Ukraine ***</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal-tunein/master/setup/builds/RadioTime-{VERSION}.MPE1</OnlineLocation>
-    <ReleaseDate>2023-06-22T22:38:05</ReleaseDate>
+    <OnlineLocation>https://github.com/andrewjswan/mediaportal-tunein/releases/download/v{VERSION}/RadioTime-{VERSION}.mpe1</OnlineLocation>
+    <ReleaseDate>2024-03-20T22:38:05</ReleaseDate>
     <Tags>radio, online</Tags>
-    <Location>builds\RadioTime-MAJOR.MINOR.BUILD.REVISION.MPE1</Location>
+    <PlatformCompatibility>AnyCPU</PlatformCompatibility>
+    <Location>builds\RadioTime-MAJOR.MINOR.BUILD.REVISION.mpe1</Location>
     <Params>
       <Items>
         <SectionParam Name="Icon">
@@ -532,245 +537,245 @@ Add hover name to Plugin
   </GeneralInfo>
   <UniqueFileList>
     <Items>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Default\RadioTime.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{aed0ef97-0e84-4e59-b73c-8c25f7b9976e}-RadioTime.xml</ZipFileName>
         <DestinationFilename>%Skin%\Default\RadioTime.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Default\RadioTimeMiniGuide.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{3106b544-5333-400e-b791-948b1e17400c}-RadioTimeMiniGuide.xml</ZipFileName>
         <DestinationFilename>%Skin%\Default\RadioTimeMiniGuide.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Default\radiotimenowplaying.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{1b13eef0-eb2b-46bb-8ffb-de846d8d0327}-radiotimenowplaying.xml</ZipFileName>
         <DestinationFilename>%Skin%\Default\radiotimenowplaying.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Default\RadioTimePresets.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{43971911-5e61-4ef3-b1e7-132df9315c8a}-RadioTimePresets.xml</ZipFileName>
         <DestinationFilename>%Skin%\Default\RadioTimePresets.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Default\Media\hover_radiotime.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{8e5f438c-76fd-40a7-b9e6-8d7a2deb3b3c}-hover_radiotime.png</ZipFileName>
         <DestinationFilename>%Skin%\Default\Media\hover_radiotime.png</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Default\Media\radiotime_logo.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{4953000d-7a6a-4f19-9c49-f2c2d304fee0}-radiotime_logo.png</ZipFileName>
         <DestinationFilename>%Skin%\Default\Media\radiotime_logo.png</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\DefaultWide\RadioTime.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{3dbfa018-3d06-4f52-b06b-92c6a2c5de1f}-RadioTime.xml</ZipFileName>
         <DestinationFilename>%Skin%\DefaultWide\RadioTime.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\DefaultWide\RadioTimeMiniGuide.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{20e7b5e2-05cd-450f-8f6a-ca61e3a42816}-RadioTimeMiniGuide.xml</ZipFileName>
         <DestinationFilename>%Skin%\DefaultWide\RadioTimeMiniGuide.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\DefaultWide\radiotimenowplaying.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{2ed23bd5-3d8d-477e-9772-9c415a7e8bfc}-radiotimenowplaying.xml</ZipFileName>
         <DestinationFilename>%Skin%\DefaultWide\radiotimenowplaying.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\DefaultWide\RadioTimePresets.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{3fc36930-3379-4fe3-9f87-f19ee47a8a61}-RadioTimePresets.xml</ZipFileName>
         <DestinationFilename>%Skin%\DefaultWide\RadioTimePresets.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\DefaultWide\Media\hover_radiotime.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{1621a46c-4453-4866-b6f9-c1a7fd932c71}-hover_radiotime.png</ZipFileName>
         <DestinationFilename>%Skin%\DefaultWide\Media\hover_radiotime.png</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\DefaultWide\Media\radiotime_logo.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{d28d47b9-2683-4f06-90e0-44333a3a1c96}-radiotime_logo.png</ZipFileName>
         <DestinationFilename>%Skin%\DefaultWide\Media\radiotime_logo.png</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\common.facade.radiotime.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{ad5e0f0d-046e-4cf7-96e6-e157b110ccfd}-common.facade.radiotime.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\common.facade.radiotime.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\common.window.radiotime.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{f8df18b2-b945-403b-883c-950bbbe4c221}-common.window.radiotime.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\common.window.radiotime.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\RadioTime.hiddenmenu.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{f045a457-f8c3-4e49-8d7e-683a15ba7fee}-RadioTime.hiddenmenu.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\RadioTime.hiddenmenu.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\RadioTime.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{72c1d10a-ea5d-4246-9051-05cb561f3729}-RadioTime.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\RadioTime.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\RadioTimeMiniGuide.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{8297db45-2ad9-429b-ab13-d6f0636d0a16}-RadioTimeMiniGuide.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\RadioTimeMiniGuide.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\RadioTimeNowPlaying.Body.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{e565f19f-e0a8-4fab-ae42-1bca4812c031}-RadioTimeNowPlaying.Body.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\RadioTimeNowPlaying.Body.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\RadioTimeNowPlaying.Dummy.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{63016775-ff08-4872-8bbd-aa16350990cf}-RadioTimeNowPlaying.Dummy.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\RadioTimeNowPlaying.Dummy.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\RadioTimeNowPlaying.SimpleBody.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{4d663857-8a0d-43b5-855d-77daff86ebde}-RadioTimeNowPlaying.SimpleBody.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\RadioTimeNowPlaying.SimpleBody.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\RadioTimeNowPlaying.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{5458bea8-0ffe-41bd-8917-10674119c7c6}-RadioTimeNowPlaying.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\RadioTimeNowPlaying.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\RadioTimePresets.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{cfa859e2-5b2c-4feb-ab0f-9d5125c18867}-RadioTimePresets.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\RadioTimePresets.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\Media\basichome_button_radiotime.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{8b6c6773-b000-43b1-ac36-c7e2c1f24152}-basichome_button_radiotime.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Media\basichome_button_radiotime.png</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>skin\Titan\Media\hover_radiotime.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{0c1b1888-f677-4a5e-ba98-76e7355e1e92}-hover_radiotime.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Media\hover_radiotime.png</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>language\RadioTime\en-US.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{79f57d06-4c75-4235-b329-817999ce5b2b}-en-US.xml</ZipFileName>
         <DestinationFilename>%Language%\RadioTime\en-US.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>language\RadioTime\nl.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{ce332097-ffcd-47b9-8097-cf6de51babb4}-nl.xml</ZipFileName>
         <DestinationFilename>%Language%\RadioTime\nl.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>language\RadioTime\da.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{dd154667-00d3-44a5-8b8a-74dc98dd640c}-da.xml</ZipFileName>
         <DestinationFilename>%Language%\RadioTime\da.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>language\RadioTime\de.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{e8dcf51b-9591-4762-8242-a3be50a23c63}-de.xml</ZipFileName>
         <DestinationFilename>%Language%\RadioTime\de.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>language\RadioTime\fr.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{22dabdcc-7cac-42e7-b16d-b03e52855071}-fr.xml</ZipFileName>
         <DestinationFilename>%Language%\RadioTime\fr.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>language\RadioTime\ru.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{1c360882-e418-4d24-b84a-3e7fa0448a8a}-ru.xml</ZipFileName>
         <DestinationFilename>%Language%\RadioTime\ru.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>language\RadioTime\tr.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{572a10e8-aee4-4155-8874-32c3c29cdf06}-tr.xml</ZipFileName>
         <DestinationFilename>%Language%\RadioTime\tr.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>settings\extension_settings.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{0edd5a57-4cea-4905-9feb-5cdeef9e2e42}-extension_settings.xml</ZipFileName>
         <DestinationFilename>%Base%\extension_settings.xml</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\RadioTimePlugin\bin\Release\RadioTimeOpmlApi.dll</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{ca4b62d3-a055-47ab-84b7-07f0a8e16867}-RadioTimeOpmlApi.dll</ZipFileName>
         <DestinationFilename>%Plugins%\Windows\RadioTimeOpmlApi.dll</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\RadioTimePlugin\bin\Release\RadioTimePlugin.dll</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{1db2137d-791d-47ed-b64a-2c9c8abe39b8}-RadioTimePlugin.dll</ZipFileName>
         <DestinationFilename>%Plugins%\Windows\RadioTimePlugin.dll</DestinationFilename>
       </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>tunein.png</LocalFileName>
@@ -781,7 +786,7 @@ Add hover name to Plugin
   </UniqueFileList>
   <ProjectSettings>
     <FolderGroups>
-      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName />
@@ -791,7 +796,7 @@ Add hover name to Plugin
         <Group>Languages</Group>
         <Recursive>true</Recursive>
       </FolderGroup>
-      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName />
@@ -801,7 +806,7 @@ Add hover name to Plugin
         <Group>Skin</Group>
         <Recursive>true</Recursive>
       </FolderGroup>
-      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName />
@@ -811,7 +816,7 @@ Add hover name to Plugin
         <Group>Skin</Group>
         <Recursive>true</Recursive>
       </FolderGroup>
-      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true" Condition="None">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName />
@@ -823,7 +828,7 @@ Add hover name to Plugin
       </FolderGroup>
     </FolderGroups>
     <ProjectFilename>RadioTime.xmp2</ProjectFilename>
-    <UpdatePath1>update-{VERSION}.xml</UpdatePath1>
+    <UpdatePath1>RadioTimePlugin.xml</UpdatePath1>
     <UpdatePath2 />
     <UpdatePath3 />
   </ProjectSettings>
