@@ -18,23 +18,8 @@ FOR /F "tokens=*" %%i IN ('Tools\sigcheck.exe /accepteula /nobanner /n "..\Radio
 :: Temp xmp2 file
 copy RadioTime.xmp2 RadioTimeTemp.xmp2
 
-:: Sed "{VERSION}" from xmp2 file
-Tools\sed.exe -i "s/{VERSION}/%version%/g" RadioTimeTemp.xmp2
-
 :: Build MPE1
 "%PROGS%\Team MediaPortal\MediaPortal\MPEMaker.exe" RadioTimeTemp.xmp2 /B /V=%version% /UpdateXML
 
 :: Cleanup
 del RadioTimeTemp.xmp2
-
-:: Parse version (Might be needed in the futute)
-FOR /F "tokens=1-4 delims=." %%i IN ("%version%") DO ( 
-	SET major=%%i
-	SET minor=%%j
-	SET build=%%k
-	SET revision=%%l
-)
-
-:: Rename MPE1
-if exist "builds\RadioTime-%major%.%minor%.%build%.%revision%.mpe1" del "builds\RadioTime-%major%.%minor%.%build%.%revision%.mpe1"
-rename builds\RadioTime-MAJOR.MINOR.BUILD.REVISION.mpe1 "RadioTime-%major%.%minor%.%build%.%revision%.mpe1"

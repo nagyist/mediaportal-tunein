@@ -498,11 +498,11 @@ Migrate to GitHub Action
 
 *** We Stand with Ukraine ***</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>https://github.com/andrewjswan/mediaportal-tunein/releases/download/v{VERSION}/RadioTime-{VERSION}.mpe1</OnlineLocation>
+    <OnlineLocation>https://github.com/andrewjswan/mediaportal-tunein/releases/download/v[Version]/RadioTime-[Version].mpe1</OnlineLocation>
     <ReleaseDate>2024-03-20T22:38:05</ReleaseDate>
     <Tags>radio, online</Tags>
     <PlatformCompatibility>AnyCPU</PlatformCompatibility>
-    <Location>builds\RadioTime-MAJOR.MINOR.BUILD.REVISION.mpe1</Location>
+    <Location>builds\RadioTime-[Version].mpe1</Location>
     <Params>
       <Items>
         <SectionParam Name="Icon">
