@@ -69,7 +69,7 @@ namespace RadioTimeOpmlApi
             var gr = new RadioTime();
             gr.Settings = Grabber.Settings;
             GuidId = stationid;
-            var url = string.Format("http://opml.radiotime.com/Describe.ashx?c=nowplaying&id={0}&{1}", GuidId, Grabber.Settings.GetParamString());
+            var url = string.Format("https://opml.radiotime.com/Describe.ashx?c=nowplaying&id={0}&{1}", GuidId, Grabber.Settings.GetParamString());
             gr.GetData(url, false, false);
 
             var line = 0;
@@ -86,8 +86,8 @@ namespace RadioTimeOpmlApi
 
                 if (outline.Key == "show")
                 {
-                    // ShowImage = string.Format("http://radiotime-logos.s3.amazonaws.com/{0}.png", GuidId);
-                    ShowImage = string.Format("http://cdn-radiotime-logos.tunein.com/{0}q.png", GuidId);
+                    // ShowImage = string.Format("https://radiotime-logos.s3.amazonaws.com/{0}.png", GuidId);
+                    ShowImage = string.Format("https://cdn-radiotime-logos.tunein.com/{0}q.png", GuidId);
                     Description = outline.Text;
                     IsShow = true;
                     ShowGuidId = outline.GuidId;

@@ -204,7 +204,7 @@ namespace RadioTimePlugin
 
             if (!string.IsNullOrEmpty(Settings.GuideId))
             {
-                grabber.GetData(string.Format("http://opml.radiotime.com/Browse.ashx?id={0}&{1}", Settings.GuideId,
+                grabber.GetData(string.Format("https://opml.radiotime.com/Browse.ashx?id={0}&{1}", Settings.GuideId,
                     grabber.Settings.GetParamString()), Settings.GuideIdDescription);
                 Settings.GuideId = string.Empty;
                 Settings.GuideIdDescription = string.Empty;
@@ -224,7 +224,7 @@ namespace RadioTimePlugin
                     {
                         Log.Info("RadioTime page loading :{0}", _setting.StartupUrl);
                         grabber.GetData(_setting.StartupUrl, _setting.PluginName);
-                        //grabber.Body.Add(new RadioTimeOutline() { Url = "http://opml.radiotime.com/Search.ashx?query=aa2", Type = RadioTimeOutline.OutlineType.link, Text = "Test feeed" });
+                        //grabber.Body.Add(new RadioTimeOutline() { Url = "https://opml.radiotime.com/Search.ashx?query=aa2", Type = RadioTimeOutline.OutlineType.link, Text = "Test feeed" });
                     }
                 }
             }
@@ -520,7 +520,7 @@ namespace RadioTimePlugin
                                 if (string.IsNullOrEmpty(radioItem.Url) && !string.IsNullOrEmpty(radioItem.GuidId))
                                 {
                                     grabber.GetData(
-                                        string.Format("http://opml.radiotime.com/Browse.ashx?id={0}&{1}",
+                                        string.Format("https://opml.radiotime.com/Browse.ashx?id={0}&{1}",
                                             radioItem.GuidId,
                                             grabber.Settings.GetParamString()), selectedItem.Label);
                                 }
@@ -537,7 +537,7 @@ namespace RadioTimePlugin
                                 if (string.IsNullOrEmpty(radioItem.Url) && !string.IsNullOrEmpty(radioItem.GuidId))
                                 {
                                     grabber.GetData(
-                                        string.Format("http://opml.radiotime.com/Browse.ashx?id={0}&{1}",
+                                        string.Format("https://opml.radiotime.com/Browse.ashx?id={0}&{1}",
                                             radioItem.GuidId,
                                             grabber.Settings.GetParamString()), selectedItem.Label);
                                     UpdateList();

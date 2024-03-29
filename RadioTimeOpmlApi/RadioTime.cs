@@ -74,7 +74,7 @@ namespace RadioTimeOpmlApi
         {
             var client = new WebClient();
             var url = string.Format(
-                "http://opml.radiotime.com/Preset.ashx?c=add&id={0}&partnerId={1}&username={2}&password={3}&folderId={4}&presetNumber={5}",
+                "https://opml.radiotime.com/Preset.ashx?c=add&id={0}&partnerId={1}&username={2}&password={3}&folderId={4}&presetNumber={5}",
                 id, Settings.PartnerId, Settings.User, Settings.Password, folderid, prestnumber);
             client.DownloadString(url);
         }
@@ -87,7 +87,7 @@ namespace RadioTimeOpmlApi
         {
             var client = new WebClient();
             var url = string.Format(
-                "http://opml.radiotime.com/Preset.ashx?c=remove&id={0}&partnerId={1}&username={2}&password={3}", id,
+                "https://opml.radiotime.com/Preset.ashx?c=remove&id={0}&partnerId={1}&username={2}&password={3}", id,
                 Settings.PartnerId, Settings.User, Settings.Password);
             client.DownloadString(url);
         }
@@ -97,7 +97,7 @@ namespace RadioTimeOpmlApi
         /// </summary>
         public RadioTime()
         {
-            CurentUrl = "http://opml.radiotime.com/Index.aspx";
+            CurentUrl = "https://opml.radiotime.com/Index.aspx";
             ParentUrl = CurentUrl;
             Head = new RadioTimeHead();
             Body = new List<RadioTimeOutline>();
@@ -175,7 +175,7 @@ namespace RadioTimeOpmlApi
         /// <param name="navigationTitle">navigation title.</param>
         public void Search(string sStr, string navigationTitle)
         {
-            var s = string.Format("http://opml.radiotime.com/Search.aspx?query={0}&{1}", sStr,
+            var s = string.Format("https://opml.radiotime.com/Search.aspx?query={0}&{1}", sStr,
                 Settings.GetParamString());
             GetData(s, navigationTitle == string.Empty ? sStr : navigationTitle + ": " + sStr);
         }
@@ -196,7 +196,7 @@ namespace RadioTimeOpmlApi
         /// <param name="navigationTitle">navigation title.</param>
         public void SearchArtist(string sStr, string navigationTitle)
         {
-            var s = string.Format("http://opml.radiotime.com/Search.ashx?c=song,artist&query={0}&{1}", sStr,
+            var s = string.Format("https://opml.radiotime.com/Search.ashx?c=song,artist&query={0}&{1}", sStr,
                 Settings.GetParamString());
             GetData(s, navigationTitle == string.Empty ? sStr : navigationTitle + ": " + sStr);
         }

@@ -11,7 +11,7 @@ namespace RadioTimePlugin
         public SetupForm()
         {
             InitializeComponent();
-            linkLabel1.Links.Add(0, linkLabel1.Text.Length, "http://www.tunein.com");
+            linkLabel1.Links.Add(0, linkLabel1.Text.Length, "https://www.tunein.com");
             Setting.Load();
             checkBox4.Checked = Setting.ShowPresets;
             textBox_user.Text = Setting.User;

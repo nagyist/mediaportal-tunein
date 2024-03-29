@@ -182,10 +182,10 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://opml.radiotime.com/Radio.asmx%3fWSDL">
+    <WebReferenceUrl Include="https://opml.radiotime.com/Radio.asmx%3fWSDL">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\com.radiotime.opml\</RelPath>
-      <UpdateFromURL>http://opml.radiotime.com/Radio.asmx%3fWSDL</UpdateFromURL>
+      <UpdateFromURL>https://opml.radiotime.com/Radio.asmx%3fWSDL</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -193,10 +193,10 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>RadioTimeOpmlApi_com_radiotime_opml_Radio</CachedSettingsPropName>
     </WebReferenceUrl>
-    <WebReferenceUrl Include="http://opml.radiotime.com/RadioTime.asmx%3fWSDL">
+    <WebReferenceUrl Include="https://opml.radiotime.com/RadioTime.asmx%3fWSDL">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\com.radiotime.services\</RelPath>
-      <UpdateFromURL>http://opml.radiotime.com/RadioTime.asmx%3fWSDL</UpdateFromURL>
+      <UpdateFromURL>https://opml.radiotime.com/RadioTime.asmx%3fWSDL</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>

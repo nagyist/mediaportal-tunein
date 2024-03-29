@@ -68,11 +68,11 @@ namespace RadioTimeOpmlApi
             {
                 if (!string.IsNullOrEmpty(GetParamString()))
                 {
-                    return "http://opml.radiotime.com/Index.aspx?" + GetParamString();
+                    return "https://opml.radiotime.com/Index.aspx?" + GetParamString();
                 }
                 else
                 {
-                    return "http://opml.radiotime.com/Index.aspx";
+                    return "https://opml.radiotime.com/Index.aspx";
                 }
             }
         }
@@ -83,11 +83,11 @@ namespace RadioTimeOpmlApi
             {
                 if (!string.IsNullOrEmpty(GetParamString()))
                 {
-                    return "http://opml.radiotime.com/Describe.ashx?c=genres&" + GetParamString();
+                    return "https://opml.radiotime.com/Describe.ashx?c=genres&" + GetParamString();
                 }
                 else
                 {
-                    return "http://opml.radiotime.com/Describe.ashx?c=genres";
+                    return "https://opml.radiotime.com/Describe.ashx?c=genres";
                 }
             }
         }
@@ -102,18 +102,17 @@ namespace RadioTimeOpmlApi
             {
                 if (!string.IsNullOrEmpty(GetParamString()))
                 {
-                    return "http://opml.radiotime.com/Browse.ashx?c=presets&" + GetParamString();
+                    return "https://opml.radiotime.com/Browse.ashx?c=presets&" + GetParamString();
                 }
                 else
                 {
-                    return "http://opml.radiotime.com/Browse.ashx?c=presets";
+                    return "https://opml.radiotime.com/Browse.ashx?c=presets";
                 }
             }
         }
 
         public string GetParamString()
         {
-            var s = "";
             var ext = string.Empty;
             if (Mp3)
                 ext += "mp3,";
@@ -121,7 +120,9 @@ namespace RadioTimeOpmlApi
                 ext += "wma,";
             if (Real)
                 ext += "real";
-            s += "formats=wma,mp3,aac,real,flash,wmpro,wmvoice,wmvideo,ogg,qt";
+
+            var s = "";
+            s += "formats=wma,mp3,aac,real,flash,wmpro,wmvoice,wmvideo,ogg,qt,m3u8";
             if (!string.IsNullOrEmpty(User.Trim()))
             {
                 s += "&username=" + User;

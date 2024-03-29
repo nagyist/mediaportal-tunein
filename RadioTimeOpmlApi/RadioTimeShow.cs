@@ -50,7 +50,7 @@ namespace RadioTimeOpmlApi
 
             GuideId = guideid;
             var sUrl = string.Format(
-                "http://opml.radiotime.com/Describe.ashx?id={0}&detail=genre,recommendation&{1}", GuideId,
+                "https://opml.radiotime.com/Describe.ashx?id={0}&detail=genre,recommendation&{1}", GuideId,
                 Grabber.Settings.GetParamString());
 
             //Log.Debug("Get Show " + sUrl);

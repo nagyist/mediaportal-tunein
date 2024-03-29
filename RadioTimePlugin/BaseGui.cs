@@ -495,7 +495,6 @@ namespace RadioTimePlugin
                 return string.Empty;
             var url = String.Format("radiotime-{0}.png", Utils.EncryptLine(strURL));
             return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.InternetCache), url);
-            ;
         }
 
         public string ToMinutes(string minutes)

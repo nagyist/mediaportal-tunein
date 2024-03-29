@@ -66,7 +66,7 @@ namespace RadioTimePlugin
 
         private void FillList()
         {
-            var url = string.Format("http://opml.radiotime.com/Browse.ashx?c=schedule&id={0}", GuidId);
+            var url = string.Format("https://opml.radiotime.com/Browse.ashx?c=schedule&id={0}", GuidId);
             grabber.GetData(url, true, false);
             foreach (var body in grabber.Body)
             {
